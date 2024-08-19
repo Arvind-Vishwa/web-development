@@ -1,7 +1,8 @@
-// In these file I am going to test a types of button such as radio,text,password,checkbox,range
+// In these file I am going to test a types of button and Input such as text,password and radio,checkbox,range
 
 <form action="/sever1">
-        <div>
+        <div>  
+        // Types of input
             <input type="range" id="volume" name="vol" min="0" max="100" step="5">
             <label for="volume">choose your volume</label>
             <button>submit</button>
@@ -15,4 +16,8 @@
         <button>submit</button>
     </select>
         </div>
+      <div>
+        // Types of button
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
     </form>
