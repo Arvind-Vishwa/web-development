@@ -1,0 +1,18 @@
+// In these file I am going to test a types of button such as radio,text,password,checkbox,range
+
+<form action="/sever1">
+        <div>
+            <input type="range" id="volume" name="vol" min="0" max="100" step="5">
+            <label for="volume">choose your volume</label>
+            <button>submit</button>
+
+        </div>
+        <div>
+            select name="profession" id="profession">
+        <option value="stu" >students</option>
+        <option value="dev" selscted>developer</option>
+        <option value="anl">analyst</option>
+        <button>submit</button>
+    </select>
+        </div>
+    </form>
