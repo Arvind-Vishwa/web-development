@@ -1,0 +1,16 @@
+<div>
+        <form action="/action">            // by making a form type a action 
+            <div>
+                <label for="username123">username:</label>          // by creating a label to connect the username and input 
+                <input type="text" placeholder="enter username" id="username123">
+            </div>
+            <div>
+                <label for="password123">password:</label>
+                <input type="password" placeholder="enter the password" id="password123">
+            </div>
+            <div>
+                <label for="age123">Enter age:</label>
+                <input type="number" placeholder="age" id="age123">
+            </div>
+        </form>
+    </div>
