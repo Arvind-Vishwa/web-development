@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transi</title>
+    <style>
+        div{
+            height:200px;
+            width:200px;
+            background-color: yellowgreen;
+            margin:0 auto;
+            margin-top:10px;
+            transition:margin-top 1s ease-in 0.1s; ;
+            box-shadow: 5px 5px 10px yellow;
+            /*background Image*/
+            background-image: url(./sardar-kamran-khan-zo_udYMcaVc-unsplash.jpg);
+            background-size: cover;
+        }
+        div:hover{
+            margin-top:200px;
+            background-color: pink;
+        }
+        /*
+        transform:rotate(34deg);
+        transform:scale(2)  size will be double
+        transform:translate(10px);
+        transform:skew(30deg);  //tilt
+        */
+    </style>
+        
+</head>
+<body>
+    <div></div>
+</body>
+</html>
